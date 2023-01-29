@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Formulário</h1>   
+    <section id="text">
+        <form id="form-enter">
+            <div>
+                <label>Campo A</label>
+                <input type="number" required id="fild-a" min="1" max="10">             
+            </div>
+            <div>
+                <label>Campo B</label>
+                <input type="number" required id="fild-b" min="1" max="10">
+            </div>
+            <span class="error"> ERRO Campo B tem que ser maior que o Campo A</span>
+            <br>
+            <div>
+                <input type="button" value="Enviar Formulário" id="fild-submit">
+            </div>
+        </form>
+    </section>
+    <script src="./ex.js"></script>
+</body>
+</html>
